@@ -1,0 +1,28 @@
+:root{
+    --dark-grayish-blue: hsl(217, 19%, 35%);
+    --desatrauted-dark-blue: hsl(214, 17%, 51%)
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue:hsl(210, 46%, 95%);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 13px;
+	font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    background-color: var(--grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
