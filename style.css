@@ -115,6 +115,46 @@ html {
 	fill: white;
 }
 
-.share-popup {
+.activate-share-popup {
+	width: 17rem;
+	height: 4rem;
+	position: absolute;
+	bottom: 44%;
+	left: 59.8%;
+	background-color: var(--dark-grayish-blue);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 0.8rem;
+	animation: slideUp 0.3s forwards ease-in;
+}
+
+.triangle-reverse {
+	width: 2rem;
+	height: 1rem;
+	position: absolute;
+	bottom: -13px;
+	clip-path: polygon(49% 100%, 0 0, 100% 0);
+	background-color: var(--dark-grayish-blue);
+}
+
+.activate-share-popup > .text {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		bottom: 40%;
+	}
+	to {
+		opacity: 1;
+		bottom: 44%;
+	}
+}
+
+.deactivate-share-popup {
 	display: none;
 }
