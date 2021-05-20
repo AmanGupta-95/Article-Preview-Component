@@ -120,7 +120,7 @@ html {
 	height: 4rem;
 	position: absolute;
 	bottom: 44%;
-	left: 59.8%;
+	left: 59.3%;
 	background-color: var(--dark-grayish-blue);
 	display: flex;
 	justify-content: space-evenly;
@@ -142,6 +142,12 @@ html {
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 6px;
+}
+
+.facebook-icon,
+.twitter-icon,
+.pinterest-icon {
+	cursor: pointer;
 }
 
 @keyframes slideUp {
