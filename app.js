@@ -1,6 +1,7 @@
-let isShowing = false;
+let isShowing = true;
 const sharePopup = document.getElementById('share-popup');
 document.getElementById('share').addEventListener('click', () => {
+	sharePopup.classList.remove('dont-show');
 	if (isShowing) {
 		isShowing = false;
 		sharePopup.classList.remove('deactivate-share-popup');
