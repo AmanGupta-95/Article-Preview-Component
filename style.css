@@ -208,12 +208,82 @@ html {
 /*************************************/
 
 @media only screen and (max-width: 375px) {
-	html{
-		font-size: 10px;;
+	html {
+		font-size: 10px;
 	}
 
-	.card{
+	.card {
 		width: 30rem;
-		height: 5rem;
+		grid-template-columns: none;
+		overflow: hidden;
+	}
+
+	.drawer-image-container {
+		height: 18rem;
+		border-radius: 0;
+	}
+
+	.content {
+		margin-bottom: 1.5rem;
+	}
+
+	.header {
+		font-size: 1.5rem;
+	}
+
+	.description {
+		font-size: 1.2rem;
+		line-height: 1.7rem;
+		word-spacing: 0.5px;
+		letter-spacing: 0.2px;
+	}
+
+	.profile {
+		margin-top: 2.5rem;
+	}
+
+	.profile-img {
+		width: 4rem;
+	}
+
+	.name {
+		font-size: 1.3rem;
+	}
+
+	.date {
+		font-size: 1.2rem;
+	}
+
+	.share-btn {
+		width: 3.5rem;
+		height: 3.5rem;
+		position: absolute;
+		bottom: -2rem;
+		left: -3.5rem;
+		z-index: 5;
+	}
+
+	#share-popup {
+		width: 30rem;
+		height: 7rem;
+		bottom: -4rem;
+		left: -27.5rem;
+		justify-content: flex-start;
+		border-radius: 0;
+	}
+
+	#share-popup:after {
+		display: none;
+	}
+
+	#share-popup > .text {
+		margin-left: 2.6rem;
+		margin-right: 1.5rem;
+		font-size: 1.2rem;
+	}
+
+	.facebook-icon,
+	.twitter-icon {
+		margin-right: 1.2rem;
 	}
 }
