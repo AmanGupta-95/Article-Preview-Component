@@ -111,11 +111,13 @@ html {
 	transition: all 0.3s;
 }
 
-.share-btn:hover {
+.share-btn:hover,
+.share-btn-active {
 	background-color: var(--desatrauted-dark-blue);
 }
 
-.share-btn:hover > svg > .share-icon {
+.share-btn:hover > svg > .share-icon,
+.share-btn-active > svg > .share-icon {
 	fill: white;
 }
 
